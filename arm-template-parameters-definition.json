@@ -1,0 +1,24 @@
+    {
+    	"Microsoft.DataFactory/factories/linkedServices": {
+    		"*": {
+    			"properties": {
+    				"typeProperties": {
+    					"accountName": "=",
+    					"username": "=",
+    					"connectionString": "|:-connectionString:String",
+    					"secretAccessKey": "|"
+    				}
+    			}
+    		}
+    	},
+		  "Microsoft.DataFactory/factories/pipelines": {
+        "properties": {
+            "activities": [{
+
+                "typeProperties": {
+                    "url": "-"
+                }
+            }]
+        }
+    }
+}
